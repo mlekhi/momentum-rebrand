@@ -7,7 +7,7 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section className="px-6 py-24 max-w-4xl mx-auto">
+    <section className="px-6 py-32 max-w-4xl mx-auto">
       <h2 className="text-4xl md:text-5xl font-semibold mb-16 text-center">
         how it works...
       </h2>

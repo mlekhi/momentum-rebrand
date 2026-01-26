@@ -11,7 +11,7 @@ const GradientWord = ({ children, gradient }: { children: React.ReactNode; gradi
 
 export function Community() {
   return (
-    <section className="px-6 py-24 max-w-6xl mx-auto text-center">
+    <section className="px-6 pt-32 pb-24 max-w-6xl mx-auto text-center">
       <p className="text-3xl md:text-4xl leading-relaxed mb-8">
         <span className="text-neutral-500">⁂</span> this is a home for the
         <br />
