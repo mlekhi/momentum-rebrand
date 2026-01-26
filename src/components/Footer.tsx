@@ -33,7 +33,7 @@ export function Footer() {
           height={528}
           className="w-[70vw] h-auto"
         />
-        <p className="absolute right-0 bottom-0 text-sm pr-6 pb-2">made by <span className="font-semibold">Maya</span> with 💙</p>
+        <p className="absolute right-0 bottom-0 text-sm pr-6 pb-2">made by <a href="https://github.com/mlekhi" target="_blank" rel="noopener noreferrer" className="font-semibold hover:opacity-70 transition-opacity">Maya</a> with 💙</p>
       </div>
     </footer>
   );
