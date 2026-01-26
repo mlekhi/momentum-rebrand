@@ -32,7 +32,7 @@ export function CallToAction() {
         href="https://lu.ma/moment.um?utm_source=momentum_website"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-3 bg-white text-black px-10 py-5 rounded-full text-xl font-medium hover:bg-neutral-200 transition-colors relative z-10"
+        className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full text-xl font-medium hover:bg-neutral-200 transition-colors relative z-10"
       >
         attend a session
       </a>

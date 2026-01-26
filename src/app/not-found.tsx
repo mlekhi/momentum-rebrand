@@ -19,7 +19,7 @@ export default function NotFound() {
       </p>
       <Link
         href="/"
-        className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-neutral-200 transition-colors"
+        className="inline-flex items-center gap-2 bg-white text-black px-5 py-2.5 rounded-full font-medium hover:bg-neutral-200 transition-colors"
       >
         back to momentum
       </Link>

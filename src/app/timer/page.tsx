@@ -97,7 +97,7 @@ export default function Timer() {
         {phase.name !== "demos" && (
           <button
             onClick={() => setIsRunning(!isRunning)}
-            className="px-8 py-4 bg-white text-black rounded-full text-lg font-medium hover:bg-neutral-200 transition-colors"
+            className="px-6 py-3 bg-white text-black rounded-full text-lg font-medium hover:bg-neutral-200 transition-colors"
           >
             {isRunning ? "pause" : "start"}
           </button>
@@ -105,13 +105,13 @@ export default function Timer() {
         <button
           onClick={nextPhase}
           disabled={currentPhase >= phases.length - 1}
-          className="px-8 py-4 border border-white/30 rounded-full text-lg font-medium hover:bg-white/10 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          className="px-6 py-3 border border-white/30 rounded-full text-lg font-medium hover:bg-white/10 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
         >
           skip
         </button>
         <button
           onClick={reset}
-          className="px-8 py-4 border border-white/30 rounded-full text-lg font-medium hover:bg-white/10 transition-colors"
+          className="px-6 py-3 border border-white/30 rounded-full text-lg font-medium hover:bg-white/10 transition-colors"
         >
           reset
         </button>

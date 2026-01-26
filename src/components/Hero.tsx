@@ -26,7 +26,7 @@ export function Hero() {
           rel="noopener noreferrer"
           className="underline hover:text-white transition-colors"
         >
-          saturdays at noon in london, ontario.
+          sundays at noon in london, ontario.
         </a>
       </p>
     </section>
