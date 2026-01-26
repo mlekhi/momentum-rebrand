@@ -2,6 +2,7 @@ import {
   Navbar,
   Hero,
   Explore,
+  Community,
   Marquee,
   HowItWorks,
   CallToAction,
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Explore />
+      <Community />
       <Marquee />
       <HowItWorks />
       <CallToAction />
