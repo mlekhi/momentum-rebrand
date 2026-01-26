@@ -1,8 +1,8 @@
 const steps = [
-  { text: "50 minutes of work* time.", hasAsterisk: true },
-  { text: "10 minute break.", hasAsterisk: false },
-  { text: "50 minutes of work* time.", hasAsterisk: true },
-  { text: "demos to wrap up!", hasAsterisk: false },
+  { text: "50 minutes of work* time.", hasAsterisk: true, color: "bg-[#5EECC7]" },
+  { text: "10 minute break.", hasAsterisk: false, color: "bg-[#F9D76D]" },
+  { text: "50 minutes of work* time.", hasAsterisk: true, color: "bg-[#E86EBF]" },
+  { text: "demos to wrap up!", hasAsterisk: false, color: "bg-[#E86EBF]" },
 ];
 
 export function HowItWorks() {
@@ -11,18 +11,33 @@ export function HowItWorks() {
       <h2 className="text-4xl md:text-5xl font-semibold mb-16 text-center">
         how it works...
       </h2>
-      <div className="flex flex-col gap-8 pl-8 border-l-2 border-orange-500">
+      <div className="relative">
+        {/* Rainbow gradient line */}
+        <div 
+          className="absolute left-[11px] top-3 w-1 bottom-3 rounded-full"
+            style={{
+              background: "linear-gradient(to bottom, #5EECC7, #F9D76D, #E86EBF)"
+            }}
+        />
+        
         {steps.map((item, i) => (
-          <div key={i} className="relative pl-8 group">
-            <div className="absolute -left-[25px] top-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-orange-500" />
-            <p className="text-xl md:text-2xl">
-              {item.text}
-              {item.hasAsterisk && (
-                <span className="ml-2 text-sm text-neutral-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  *no school or job work allowed :)
-                </span>
-              )}
-            </p>
+          <div key={i} className="relative flex items-start gap-6 pb-12 last:pb-0 group">
+            {/* Dot */}
+            <div className={`relative z-10 w-6 h-6 rounded-full ${item.color} flex items-center justify-center flex-shrink-0 mt-1`}>
+              <div className="w-2 h-2 rounded-full bg-black" />
+            </div>
+            
+            {/* Content */}
+            <div className="flex-1">
+              <p className="text-xl md:text-2xl">
+                {item.text}
+                {item.hasAsterisk && (
+                  <span className="ml-2 text-sm text-neutral-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    *no school or job work allowed :)
+                  </span>
+                )}
+              </p>
+            </div>
           </div>
         ))}
       </div>
