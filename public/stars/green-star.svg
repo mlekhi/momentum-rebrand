@@ -1,0 +1,51 @@
+<svg width="477" height="453" viewBox="0 0 477 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M238.036 0C238.036 0 236.776 131.146 294.228 172.87C351.68 214.593 476.071 172.87 476.071 172.87L328.957 279.709L385.15 452.579C385.15 452.579 309.05 345.739 238.036 345.739C167.021 345.739 90.9215 452.579 90.9215 452.579L147.114 279.709L0 172.87C0 172.87 124.391 214.593 181.843 172.87C239.295 131.146 238.036 0 238.036 0Z" fill="#09FEC2"/>
+<g filter="url(#filter0_n_427_5795)">
+<path d="M238.043 0.00195312C238.043 0.00195312 236.784 131.148 294.236 172.872C351.688 214.595 476.079 172.872 476.079 172.872L328.965 279.711L385.157 452.581C385.157 452.581 309.057 345.741 238.043 345.741C167.029 345.741 90.9293 452.581 90.9293 452.581L147.122 279.711L0.0078125 172.872C0.0078125 172.872 124.399 214.595 181.851 172.872C239.302 131.148 238.043 0.00195312 238.043 0.00195312Z" fill="url(#paint0_linear_427_5795)"/>
+</g>
+<g filter="url(#filter1_n_427_5795)">
+<path d="M237.78 22.7305C237.78 22.7305 236.645 140.935 288.427 178.541C340.209 216.146 455.175 182.507 455.175 182.507L319.729 274.836L363.736 417.585C363.736 417.585 301.786 334.351 237.78 334.351C173.774 334.351 108.991 421.408 108.991 421.408L155.831 274.836L38.0977 187.406C38.0977 187.406 135.351 216.146 187.133 178.541C238.915 140.935 237.78 22.7305 237.78 22.7305Z" fill="url(#paint1_radial_427_5795)"/>
+</g>
+<defs>
+<filter id="filter0_n_427_5795" x="0.0078125" y="0.00195312" width="476.07" height="452.579" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.99885988235473633 0.99885988235473633" stitchTiles="stitch" numOctaves="3" result="noise" seed="6236" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="#5DCA7A" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_427_5795">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<filter id="filter1_n_427_5795" x="38.0977" y="22.7305" width="417.078" height="398.678" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.99885988235473633 0.99885988235473633" stitchTiles="stitch" numOctaves="3" result="noise" seed="6236" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="#A5FFBD" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_427_5795">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<linearGradient id="paint0_linear_427_5795" x1="253.24" y1="414.115" x2="429.949" y2="220.804" gradientUnits="userSpaceOnUse">
+<stop stop-color="#085E55"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="paint1_radial_427_5795" cx="0" cy="0" r="1" gradientTransform="matrix(-102.763 169.755 -179.439 -118.419 243.422 238.119)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#09FEC2"/>
+<stop offset="1" stop-color="#09FEC2" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
