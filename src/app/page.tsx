@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Banner,
   Navbar,
@@ -16,8 +17,15 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Explore />
-      <Community />
       <HowItWorks />
+      <Image
+        src="/divider.png"
+        alt=""
+        width={1920}
+        height={1080}
+        className="w-full h-auto"
+      />
+      <Community />
       <CallToAction />
       <Footer />
     </div>
