@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Explore />
-      <HowItWorks />
+      <Community />
       <Image
         src="/divider.png"
         alt=""
@@ -25,7 +25,7 @@ export default function Home() {
         height={1080}
         className="w-full h-auto"
       />
-      <Community />
+      <HowItWorks />
       <CallToAction />
       <Footer />
     </div>
