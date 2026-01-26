@@ -1,3 +1,4 @@
+export { Navbar } from "./Navbar";
 export { Hero } from "./Hero";
 export { Explore } from "./Explore";
 export { Marquee } from "./Marquee";
