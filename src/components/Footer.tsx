@@ -6,8 +6,8 @@ export function Footer() {
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-1">
           <a href="https://lu.ma/moment.um?utm_source=momentum_website" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">join us</a>
-          <a href="/timer" className="text-base hover:opacity-70 transition-opacity">timer</a>
           <a href="https://buymeacoffee.com/moment.um" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">contribute</a>
+          <a href="/timer" className="text-base hover:opacity-70 transition-opacity">timer</a>
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex gap-4">

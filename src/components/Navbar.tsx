@@ -23,12 +23,6 @@ export function Navbar() {
           attend
         </a>
         <a
-          href="/timer"
-          className="text-base hover:opacity-70 transition-opacity"
-        >
-          timer
-        </a>
-        <a
           href="https://buymeacoffee.com/moment.um"
           target="_blank"
           rel="noopener noreferrer"
