@@ -14,22 +14,22 @@ export function HowItWorks() {
       <div className="relative">
         {/* Rainbow gradient line */}
         <div 
-          className="absolute left-[11px] top-3 w-1 bottom-3 rounded-full"
+          className="absolute left-[7px] top-2 w-0.5 bottom-2 rounded-full"
             style={{
               background: "linear-gradient(to bottom, #5EECC7, #F9D76D, #E86EBF)"
             }}
         />
         
         {steps.map((item, i) => (
-          <div key={i} className="relative flex items-start gap-6 pb-12 last:pb-0 group">
+          <div key={i} className="relative flex items-start gap-4 pb-6 last:pb-0 group">
             {/* Dot */}
-            <div className={`relative z-10 w-6 h-6 rounded-full ${item.color} flex items-center justify-center flex-shrink-0 mt-1`}>
-              <div className="w-2 h-2 rounded-full bg-black" />
+            <div className={`relative z-10 w-4 h-4 rounded-full ${item.color} flex items-center justify-center flex-shrink-0 mt-1`}>
+              <div className="w-1.5 h-1.5 rounded-full bg-black" />
             </div>
             
             {/* Content */}
             <div className="flex-1 flex justify-between items-baseline">
-              <p className="text-xl md:text-2xl">
+              <p className="text-lg md:text-xl">
                 {item.text}
               </p>
               {item.hasAsterisk && (
