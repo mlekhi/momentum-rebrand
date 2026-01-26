@@ -25,7 +25,7 @@ const ztFormom = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Momentum - Co-Working Sessions in London, Ontario",
+  title: "momentum - co-working sessions in london, ontario",
   description:
     "Momentum is a co-working community where creators, learners, and makers gather to work on passion projects. Join us Sundays at noon in London, Ontario.",
   keywords: [
