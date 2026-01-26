@@ -1,4 +1,5 @@
 import {
+  Banner,
   Navbar,
   Hero,
   Explore,
@@ -11,6 +12,7 @@ import {
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <Banner />
       <Navbar />
       <Hero />
       <Explore />
