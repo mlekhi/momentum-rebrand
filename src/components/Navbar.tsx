@@ -7,7 +7,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center bg-black/80 backdrop-blur-sm">
+    <nav className="px-6 py-4 flex justify-between items-center">
       <a href="/">
         <Image
           src="/TEXT.svg"
