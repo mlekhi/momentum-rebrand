@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export function Explore() {
   return (
-    <section className="px-6 py-24 bg-[#0a0a0a] relative overflow-hidden">
-      {/* Grain overlay */}
-      <div 
-        className="absolute inset-0 opacity-[0.08] pointer-events-none"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
-        }}
-      />
+    <section 
+      className="px-6 py-24 relative overflow-hidden"
+      style={{
+        backgroundImage: `url("/bg.svg")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16 max-w-6xl mx-auto">
         <div className="flex-1 text-left">
           <h2 className="text-4xl md:text-5xl font-semibold mb-6">
@@ -32,9 +32,9 @@ export function Explore() {
         </div>
         <div className="flex-1 flex justify-center md:justify-end">
           <Image
-            src="/LOGO.svg"
-            alt="Momentum logo"
-            width={400}
+            src="/shapes/blob.svg"
+            alt=""
+            width={500}
             height={400}
           />
         </div>
