@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="px-6 py-8 flex flex-col gap-12">
+    <footer className="px-6 py-4 flex flex-col gap-6">
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-1">
-          <a href="#attend" className="text-sm hover:opacity-70 transition-opacity">Join Us</a>
-          <a href="mailto:hello@momentum.place" className="text-sm hover:opacity-70 transition-opacity">Contribute</a>
+          <a href="https://lu.ma/moment.um?utm_source=momentum_website" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">Join Us</a>
+          <a href="https://buymeacoffee.com/moment.um" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">Contribute</a>
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex gap-3">
@@ -26,13 +26,13 @@ export function Footer() {
           <p className="text-sm">Made by <span className="font-semibold">Maya</span> with 💙</p>
         </div>
       </div>
-      <div className="w-screen -mx-6">
+      <div className="w-full">
         <Image
           src="/TEXT.svg"
           alt="momentum"
           width={1742}
           height={528}
-          className="w-[100vw] h-auto"
+          className="w-[70vw] h-auto"
         />
       </div>
     </footer>
