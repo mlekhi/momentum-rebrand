@@ -39,25 +39,25 @@ export const metadata: Metadata = {
     "UWO",
   ],
   openGraph: {
-    title: "Momentum - Co-Working Sessions",
+    title: "momentum - co-working sessions",
     description:
-      "Join Momentum, a co-working community in London, Ontario, to work on your creative projects in a supportive environment.",
+      "come create with us. sundays at noon in london, ontario.",
     url: "https://momentum.place",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Momentum Co-Working Sessions",
+        alt: "momentum - come create with us",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Momentum - Co-Working Sessions",
+    title: "momentum - co-working sessions",
     description:
-      "Momentum is a co-working community in London, Ontario. Join us Sundays at noon to collaborate and create.",
-    images: ["/og-image.png"],
+      "come create with us. sundays at noon in london, ontario.",
+    images: ["/og.png"],
   },
   icons: {
     icon: "/favicon.ico",
