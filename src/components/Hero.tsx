@@ -21,7 +21,7 @@ export function Hero() {
       <p className="text-base md:text-lg text-neutral-400 text-center max-w-lg">
         come create with us.{" "}
         <a
-          href="https://lu.ma/moment.um"
+          href="https://lu.ma/moment.um?utm_source=momentum_website"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-white transition-colors"

@@ -5,7 +5,7 @@ export function CallToAction() {
         you <em>belong</em> here.
       </h2>
       <a
-        href="https://lu.ma/moment.um"
+        href="https://lu.ma/moment.um?utm_source=momentum_website"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 bg-orange-500 text-white px-10 py-5 rounded-full text-xl font-medium hover:bg-orange-600 transition-colors"
