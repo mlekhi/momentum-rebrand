@@ -3,7 +3,6 @@ import {
   Hero,
   Explore,
   Community,
-  Marquee,
   HowItWorks,
   CallToAction,
   Footer,
@@ -16,7 +15,6 @@ export default function Home() {
       <Hero />
       <Explore />
       <Community />
-      <Marquee />
       <HowItWorks />
       <CallToAction />
       <Footer />
