@@ -28,15 +28,15 @@ export function HowItWorks() {
             </div>
             
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 flex justify-between items-baseline">
               <p className="text-xl md:text-2xl">
                 {item.text}
-                {item.hasAsterisk && (
-                  <span className="ml-2 text-sm text-neutral-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    *no school or job work allowed :)
-                  </span>
-                )}
               </p>
+              {item.hasAsterisk && (
+                <span className="text-sm text-neutral-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  *no school or job work allowed :)
+                </span>
+              )}
             </div>
           </div>
         ))}
