@@ -11,7 +11,7 @@ export default function NotFound() {
         height={120}
         className="mb-8 opacity-50"
       />
-      <h1 className="text-3xl md:text-4xl font-bold mb-4 font-display">
+      <h1 className="text-3xl md:text-4xl mb-4 font-display">
         you&apos;ve wandered off.
       </h1>
       <p className="text-neutral-400 mb-8 max-w-md">

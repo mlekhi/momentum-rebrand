@@ -25,7 +25,7 @@ export function CallToAction() {
         />
       ))}
       
-      <h2 className="text-5xl md:text-7xl font-bold mb-12 font-display relative z-10">
+      <h2 className="text-5xl md:text-7xl mb-12 font-display relative z-10">
         you <em>belong</em> here.
       </h2>
       <a
