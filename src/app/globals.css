@@ -12,3 +12,16 @@ html {
 body {
   @apply bg-black text-white;
 }
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle ease-in-out infinite;
+}

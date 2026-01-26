@@ -18,7 +18,7 @@ export function Navbar() {
           href="https://lu.ma/moment.um?utm_source=momentum_website"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-base hover:opacity-70 transition-opacity"
+          className="text-sm font-bold uppercase hover:opacity-70 transition-opacity"
         >
           attend
         </a>
@@ -26,7 +26,7 @@ export function Navbar() {
           href="https://buymeacoffee.com/moment.um"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-base hover:opacity-70 transition-opacity"
+          className="text-sm font-bold uppercase hover:opacity-70 transition-opacity"
         >
           contribute
         </a>
