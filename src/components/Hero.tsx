@@ -6,7 +6,7 @@ export function Hero() {
       <div className="absolute top-40 right-[15%] w-16 h-16 bg-yellow-400 rounded-full opacity-70 blur-sm animate-pulse" />
       <div className="absolute bottom-32 left-[20%] w-20 h-20 bg-orange-400 rounded-full opacity-75 blur-sm animate-bounce delay-500" />
 
-      <h1 className="text-7xl md:text-9xl font-bold tracking-tight mb-6">
+      <h1 className="text-7xl md:text-9xl font-bold tracking-tight mb-6 font-display">
         momentum
       </h1>
       <p className="text-xl md:text-2xl text-neutral-400 text-center max-w-lg">

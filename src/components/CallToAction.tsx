@@ -1,7 +1,7 @@
 export function CallToAction() {
   return (
     <section id="attend" className="px-6 py-32 text-center">
-      <h2 className="text-5xl md:text-7xl font-bold mb-12">
+      <h2 className="text-5xl md:text-7xl font-bold mb-12 font-display">
         you belong here.
       </h2>
       <a
