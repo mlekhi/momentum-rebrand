@@ -12,7 +12,9 @@ export function Explore() {
             we host weekly co-working sessions for you to work on your passion projects with likeminded people.
           </p>
           <a
-            href="#attend"
+            href="https://lu.ma/moment.um"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-full text-lg font-medium hover:bg-neutral-200 transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
