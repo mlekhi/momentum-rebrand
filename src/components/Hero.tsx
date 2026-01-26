@@ -18,7 +18,7 @@ export function Hero() {
         height={70}
         className="mb-6"
       />
-      <p className="text-xl md:text-2xl text-neutral-400 text-center max-w-lg">
+      <p className="text-base md:text-lg text-neutral-400 text-center max-w-lg">
         come create with us.{" "}
         <a
           href="https://lu.ma/moment.um"
