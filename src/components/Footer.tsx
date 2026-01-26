@@ -7,7 +7,6 @@ export function Footer() {
         <div className="flex flex-col gap-1">
           <a href="https://lu.ma/moment.um?utm_source=momentum_website" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">Join Us</a>
           <a href="https://buymeacoffee.com/moment.um" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">Contribute</a>
-          <a href="/privacy" className="text-base hover:opacity-70 transition-opacity">Privacy</a>
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex gap-3">
