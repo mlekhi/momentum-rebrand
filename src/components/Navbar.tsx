@@ -20,7 +20,7 @@ export function Navbar() {
           rel="noopener noreferrer"
           className="text-base hover:opacity-70 transition-opacity"
         >
-          Attend
+          attend
         </a>
         <a
           href="https://buymeacoffee.com/moment.um"
@@ -28,7 +28,7 @@ export function Navbar() {
           rel="noopener noreferrer"
           className="text-base hover:opacity-70 transition-opacity"
         >
-          Contribute
+          contribute
         </a>
       </div>
     </nav>

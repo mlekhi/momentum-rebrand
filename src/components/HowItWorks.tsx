@@ -2,7 +2,7 @@ const steps = [
   "50 minutes of work* time.",
   "10 minute break.",
   "50 minutes of work* time.",
-  "Demos to wrap up!",
+  "demos to wrap up!",
 ];
 
 export function HowItWorks() {

@@ -10,7 +10,7 @@ export function CallToAction() {
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 bg-orange-500 text-white px-10 py-5 rounded-full text-xl font-medium hover:bg-orange-600 transition-colors"
       >
-        Attend a Session
+        attend a session
       </a>
     </section>
   );

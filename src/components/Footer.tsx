@@ -5,8 +5,8 @@ export function Footer() {
     <footer className="px-6 py-4 flex flex-col gap-6">
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-1">
-          <a href="https://lu.ma/moment.um?utm_source=momentum_website" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">Join Us</a>
-          <a href="https://buymeacoffee.com/moment.um" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">Contribute</a>
+          <a href="https://lu.ma/moment.um?utm_source=momentum_website" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">join us</a>
+          <a href="https://buymeacoffee.com/moment.um" target="_blank" rel="noopener noreferrer" className="text-base hover:opacity-70 transition-opacity">contribute</a>
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex gap-3">
@@ -33,7 +33,7 @@ export function Footer() {
           height={528}
           className="w-[70vw] h-auto"
         />
-        <p className="absolute right-0 bottom-0 text-sm pr-6 pb-2">Made by <span className="font-semibold">Maya</span> with 💙</p>
+        <p className="absolute right-0 bottom-0 text-sm pr-6 pb-2">made by <span className="font-semibold">Maya</span> with 💙</p>
       </div>
     </footer>
   );
