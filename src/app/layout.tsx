@@ -75,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${ztFormom.variable} antialiased`}>
-        {children}
+        s{children}
         <Analytics />
       </body>
     </html>
