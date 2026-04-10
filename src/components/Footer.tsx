@@ -8,6 +8,7 @@ export function Footer() {
           <a href="https://lu.ma/moment.um?utm_source=momentum_website" target="_blank" rel="noopener noreferrer" className="text-sm font-medium uppercase hover:opacity-70 transition-opacity">join us</a>
           <a href="https://buymeacoffee.com/moment.um" target="_blank" rel="noopener noreferrer" className="text-sm font-medium uppercase hover:opacity-70 transition-opacity">contribute</a>
           <a href="/timer" className="text-sm font-medium uppercase hover:opacity-70 transition-opacity">live timer</a>
+          <a href="https://map.socratica.info/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium uppercase hover:opacity-70 transition-opacity">socratica map</a>
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex gap-4">

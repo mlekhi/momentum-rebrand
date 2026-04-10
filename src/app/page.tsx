@@ -13,7 +13,7 @@ import {
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden">
-      <Banner />
+      {/* <Banner /> */}{/* alchemy 2025 - bring back next year */}
       <Navbar />
       <Hero />
       <Explore />

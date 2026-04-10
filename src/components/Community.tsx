@@ -38,6 +38,15 @@ export function Community() {
           Socratica
         </Link>
         , a global creative community.
+        <br />
+        <Link
+          href="https://map.socratica.info/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-white transition-colors"
+        >
+          find us worldwide →
+        </Link>
       </p>
     </section>
   );
